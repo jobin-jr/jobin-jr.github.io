@@ -24,7 +24,7 @@
   <!-- Fonts with graceful system fallbacks -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -183,8 +183,8 @@
             <p>
               Complete infrastructure source for the live edge gateway: hardened non-root Dockerfile,
               Nginx security headers &amp; rate limiting, dual-tier Docker network isolation, automated
-              daily SHA-256 verified backup/restore scripts (42.3s measured cold-start DR RTO),
-              Trivy container scanning CI, and a 99.9% SLO error budget policy.
+              daily SHA-256 verified backup script (42.3s measured cold-start DR restore drill),
+              Trivy vulnerability/secret scanning &amp; pip-audit CI, and a 99.9% SLO error budget policy.
             </p>
             <div class="card-links">
               <a class="btn btn-secondary btn-sm" href="https://github.com/jobin-jr/cloud-devops-lab" target="_blank" rel="noopener noreferrer">
@@ -222,7 +222,7 @@
                 <span class="mono-muted">RTO &lt; 8m</span>
               </div>
               <h4>Minecraft &amp; Velocity Incident Response</h4>
-              <p>Paper/Leaf &amp; Velocity proxy drops, JVM heap vs cgroup OOM kills, low TPS/MSPT Spark triage, and Pterodactyl checks.</p>
+              <p>Paper &amp; Velocity proxy drops, JVM heap vs cgroup OOM kills, low TPS/MSPT Spark triage, and Pterodactyl checks.</p>
             </a>
 
             <a class="runbook-item" href="https://github.com/jobin-jr/cloud-devops-lab/blob/main/docs/runbooks/502-bad-gateway-rca.md" target="_blank" rel="noopener noreferrer">
