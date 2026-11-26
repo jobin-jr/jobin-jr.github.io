@@ -861,6 +861,8 @@ h4 {
   align-items: center;
   justify-content: space-between;
   gap: 0.75rem;
+  min-width: 0;
+  max-width: 100%;
   padding: 0.85rem 1rem;
   background: #0c121a;
   border: 1px solid var(--border);
@@ -1118,7 +1120,7 @@ a.contact-link:hover,
   }
 
   .contact-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .contact-grid > :last-child:nth-child(odd) {
